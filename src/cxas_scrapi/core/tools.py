@@ -26,12 +26,11 @@ from google.cloud.ces_v1beta import (
 from google.protobuf import field_mask_pb2
 from google.protobuf.json_format import MessageToDict
 
-from cxas_scrapi.core.apps import Apps
-from cxas_scrapi.core.common import DEFAULT_API_ENDPOINT
+from cxas_scrapi.core.common import DEFAULT_API_ENDPOINT, Common
 from cxas_scrapi.core.variables import Variables
 
 
-class Tools(Apps):
+class Tools(Common):
     """Core Class for managing Tool and Toolset Resources."""
 
     def __init__(
@@ -44,16 +43,12 @@ class Tools(Apps):
         **kwargs,
     ):
         """Initializes the Tools client."""
-        project_id = app_name.split("/")[1]
-        location = app_name.split("/")[3]
-
         super().__init__(
-            project_id=project_id,
-            location=location,
             creds_path=creds_path,
             creds_dict=creds_dict,
             creds=creds,
             scope=scope,
+            app_name=app_name,
             **kwargs,
         )
         self.app_name = app_name
