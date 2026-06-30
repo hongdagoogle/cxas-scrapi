@@ -1,6 +1,31 @@
 # Changelog
 
 
+## [1.6.0](https://github.com/GoogleCloudPlatform/cxas-scrapi/compare/v1.5.0...v1.6.0) (2026-06-30)
+
+
+### Features
+
+* **cuj-report:** add ADK framework ingestor skill ([0e62b1f](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/0e62b1fb77bbd2885d8289f94539e3323fbd8999))
+* **cuj-report:** add ADK framework ingestor skill ([5d29f05](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/5d29f05c6fc41a0d8228cf1b260c6921657b00f6))
+* **cuj-report:** add DFCX framework ingestor skill ([1131552](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/11315520f2582e1699eb150e526dded5bde4d8cd))
+* **cuj-report:** add DFCX framework ingestor skill ([b625cac](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/b625cacda69be9e93d1e6a84600b993b33150769))
+* Expectations can be judged based on audio token (`inline_data`) ([882e1a0](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/882e1a05728a8cd8a1e29387fe8039112e23c86e))
+* **skill_eval:** introduce automated Antigravity CES skill benchmark suite and scenarios ([f0d4f6b](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/f0d4f6bd168b7a3d26242efac1b488b21b880743))
+* **skill_eval:** introduce automated CES skill benchmark suite and scenarios ([c911b18](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/c911b18916fd3e0a8a5bc81b0225897bd57afb95))
+
+
+### Bug Fixes
+
+* **deps:** update junit-framework monorepo to v6.1.1 ([5eae2a1](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/5eae2a1eb79a9c3eb76f99412b085593326b88f1))
+* **deps:** update junit-framework monorepo to v6.1.1 ([75aba00](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/75aba0013fc9831939e3019c309840cafb5d6625))
+* **linter:** resolve generic search description linter false positives and add type-safe JSON checks ([ab98f17](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/ab98f17be19176cfddb6132a087d1659d7d7a47c))
+
+
+### Documentation
+
+* add IAM permissions guide and update navigation ([5697ab5](https://github.com/GoogleCloudPlatform/cxas-scrapi/commit/5697ab58ecba392af322e8458b9e06647d2cd585))
+
 ## [1.5.0](https://github.com/GoogleCloudPlatform/cxas-scrapi/compare/v1.4.1...v1.5.0) (2026-06-26)
 
 
